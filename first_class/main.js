@@ -1,7 +1,152 @@
 
+//4) Topic: Grade Calculator (JavaScript Switch Case)
+
+
+let grade='90';
 
 
 
+switch(grade=>90){
+
+
+    case 0 :
+        grade="Your Grade is A";
+
+        break;
+
+        case  1:
+            grade="Your grade is B";
+            break;
+
+            case  2:
+                grade="Your grade is C";
+break;
+
+            case 3:
+                grade="Your grade is D";
+
+}
+
+
+console.log(grade);
+
+
+
+//3) Topic: Multiplication Table Generator
+
+
+let a=5*1;
+let b=5*2;
+let c=5*3;
+let d=5*4;
+let e=5*5;
+let f=5*6;
+let g=5*7;
+let h=5*8;
+let i=5*9;
+let j=5*10;
+
+console.log(j);
+
+//2) Topic: Filter Even Numbers
+function firstArray(){
+
+
+    const car=[12,34,45,23,6,78,54,90];
+    const model=[12,34,6,78,54,90];
+
+
+    console.log(car);
+    console.log(model);
+
+}
+
+firstArray();
+
+//1) Topic: Online Store Discount Calculator (If-Else Statement)
+
+
+
+
+// If the total purchase amount is less than $50, no discount is applied.
+
+let tex='';
+i=50;
+
+if(i<=50){
+
+    tex+="You have no Discount";
+    console.log(tex);
+
+}
+
+else{
+
+
+};
+
+// If the total purchase amount is between $50 and $100 (both inclusive), apply a 5% discount.
+let x=4000;
+let y=30;
+let z= (4000/30)*5;
+
+
+
+if(price=>100){
+
+z+="You have 5% Discount";
+console.log(z);
+}
+
+else{
+
+  
+};
+
+// If the total purchase amount is between $100 and $200 (both inclusive), apply a 10% discount.
+let p=5000;
+let l=30;
+let k= (5000/30)*10;
+
+
+
+if(price=>100){
+
+k+="You have 10% Discount";
+console.log(k);
+}
+
+else{
+
+  
+};
+
+// If the total purchase amount is $200 or more, apply a 15% discount.
+
+
+let r=6000;
+let u=50;
+let t= (6000/50)*10;
+
+
+
+if(price=>200){
+
+t+="You have 15% Discount";
+console.log(t);
+}
+
+else{
+
+  
+};
+
+
+
+
+
+
+/*
 console.log("hello java script");
 console.log("hello world");
 console.log("Rayhan full stack Mern developer");
@@ -208,14 +353,33 @@ console.log(texT);
 
 
 let texTi = ""
-let l = 0;
+let s = 0;
 
 do {
-  texTi += "<br>The number is " + l;
-  l++;
+  texTi += "<br>The number is " + s;
+  s++;
 }
-while (i < 10);  
+while (s < 10);  
 
 
 console.log(texTi);
 
+:
+            grade="Your Grade is B";
+            break;
+
+            case 2:
+                
+            grade="your grade is c ";
+            break;
+
+            case 3:
+                
+            grade="your grade is d "
+}
+
+
+
+console.log(grade);
+
+*/
