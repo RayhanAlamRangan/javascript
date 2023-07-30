@@ -55,10 +55,8 @@ function firstArray(){
     const car=[12,34,45,23,6,78,54,90];
     const model=[12,34,6,78,54,90];
 
-const firstNumber=car;
-const secondNumber=model;
-const fullNumber=firstNumber+secondNumber;
-    console.log(fullNumber);
+console.log(car);
+console.log(model);
     
 
 }
